@@ -1,5 +1,87 @@
 // Обнуление стилей
 @import "nullstyle.scss";
 // Подключение шрифтов
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); //font-family: 'Roboto', sans-serif;
 //SCSS
+.main {
+    font-family: 'Roboto', sans-serif;
+    
+}
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.products {
+
+		&__content {
+            
+		}
+
+		&__top {
+		}
+
+		&__bot {
+		}
+}
+.top {
+		&__content {
+		}
+
+		&__inputs {
+		}
+}
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+		&__item {
+            border: 1px solid black;
+            padding: 5px;
+            margin: 0 10px 0 0;
+            &:last-child{
+                margin: 0;
+            }
+		}
+
+		&__submit {
+            border-radius: 5px;
+            padding: 5px 10px;
+		}
+}
+.bot {
+		&__content {
+		}
+
+		&__title {
+            font-size: 20px;
+            text-align: center;
+		}
+
+		&__items {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+		}
+
+		&__output {
+		}
+}
+.items {
+
+		&__item {
+		}
+}
+.output {
+
+		&__line {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+		}
+
+		&__item {
+		}
+}

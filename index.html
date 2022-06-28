@@ -5,7 +5,7 @@
 	<!-- Кодировка страницы -->
 	<meta charset="UTF-8">
 	<!-- Заголовок страницы в браузере -->
-	<title>NAME</title>
+	<title>Калькулятор продуктов</title>
 	<!-- Подключение CSS -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Адаптив -->
@@ -15,9 +15,47 @@
 </head>
 
 <body>
-	<!-- HEADER -->
-	<!-- MAIN -->
-	<!-- FOOTER -->
+	<main class="main">
+		<div class="content">
+			<div class="products">
+				<div class="products__content">
+					<div class="products__top top">
+						<div class="top__content">
+							<div class="top__inputs inputs">
+								<input type="text" class="inputs__item" id="name" placeholder="Название">
+								<input type="text" class="inputs__item" id="price" placeholder="Цена">
+								<input type="text" class="inputs__item" id="amount" placeholder="Количество">
+								<button class="inputs__submit">Добавить</button>
+							</div>
+						</div>
+					</div>
+					<div class="products__bot bot">
+						<div class="bot__content">
+							<div class="bot__title">
+								Таблица продуктов
+							</div>
+							<div class="bot__items items">
+								<div class="items__item">Название</div>
+								<div class="items__item">Цена</div>
+								<div class="items__item">Количество</div>
+								<div class="items__item">Сумма</div>
+								<div class="items__item">Действие</div>
+							</div>
+							<div class="bot__output output">
+								<div class="output__line">
+									<div class="output__item">Яблоко</div>
+									<div class="output__item">200</div>
+									<div class="output__item">3</div>
+									<div class="output__item">600</div>
+									<button class="output__item">Удалить</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 	<script src="js/scrypt.js"></script>
 </body>
 
