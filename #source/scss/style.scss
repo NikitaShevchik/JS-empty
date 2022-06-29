@@ -37,8 +37,10 @@
     flex-direction: row;
     justify-content: center;
 		&__item {
-            border: 1px solid black;
-            padding: 5px;
+            font-size: 16px;
+            border: 1px solid rgb(209, 209, 209);
+            border-radius: 3px;
+            padding: 5px 10px;
             margin: 0 10px 0 0;
             &:last-child{
                 margin: 0;
@@ -46,8 +48,10 @@
 		}
 
 		&__submit {
+            background-color: rgb(255, 196, 0);
             border-radius: 5px;
-            padding: 5px 10px;
+            padding: 10px 20px;
+            font-size: 16px;
 		}
 }
 .bot {
@@ -56,9 +60,13 @@
 		}
 
 		&__title {
-            font-size: 20px;
-            text-align: center;
-            padding: 0 0 20px 0;
+            width: 95%;
+            height: 4px;
+            border-radius: 10px;
+            background-color: rgb(209, 209, 209);
+            // font-size: 20px;
+            // text-align: center;
+            margin: 0 auto 20px auto;
 		}
 
 		&__items {
@@ -82,7 +90,6 @@
 		}
 }
 .output {
-
 		&__line {
             width: 100%;
             display: flex;
@@ -98,6 +105,11 @@
 		}
 }
 .output__item_button{
-    background-color: rgb(255, 196, 0);
+    font-size: 16px;
+    color: red;
+    background-color: transparent;
     border-radius: 5px;
+    &:hover{
+        text-decoration: underline;
+    }
 }
