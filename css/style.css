@@ -125,10 +125,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bot__title {
-  width: 95%;
-  height: 4px;
-  border-radius: 10px;
-  background-color: #d1d1d1;
   margin: 0 auto 20px auto;
 }
 
@@ -147,6 +143,16 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 0 10px 0;
+}
+
+.bot__allsum {
+  text-align: center;
+  font-size: 16px;
+}
+
+.bot__allsum p {
+  display: inline-block;
+  font-weight: 700;
 }
 
 .items__item {
@@ -185,4 +191,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .output__item_button:hover {
   text-decoration: underline;
+}
+
+.line {
+  width: 95%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #d1d1d1;
+}
+
+.line_s {
+  width: 20%;
+  margin: 10px auto;
+}
+
+.bot__allsum._hide {
+  display: none;
+}
+
+.edit__input {
+  width: 80%;
+  border: 1px dashed black;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  color: gray;
 }

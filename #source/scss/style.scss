@@ -60,10 +60,6 @@
 		}
 
 		&__title {
-            width: 95%;
-            height: 4px;
-            border-radius: 10px;
-            background-color: rgb(209, 209, 209);
             // font-size: 20px;
             // text-align: center;
             margin: 0 auto 20px auto;
@@ -81,6 +77,15 @@
 
 		&__output {
 		}
+
+        &__allsum{
+            text-align: center;
+            font-size: 16px;
+            p{
+                display: inline-block;
+                font-weight: 700;
+            }
+        }
 }
 .items {
 		&__item {
@@ -112,4 +117,27 @@
     &:hover{
         text-decoration: underline;
     }
+}
+.line{
+    width: 95%;
+    height: 4px;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+    &_s{
+        width: 20%;
+        margin: 10px auto;
+    }
+}
+
+.bot__allsum._hide{
+    display: none;
+}
+
+.edit__input{
+    width: 80%;
+    border: 1px dashed black;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(128, 128, 128);
 }
